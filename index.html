@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -1941,88 +1942,144 @@ body{padding:30px 0;}
 <div class="page doss">
   <div class="doss-bandeau">
     <div class="doss-bandeau-left">Extrait du dossier détaillé · <strong>Vie locale</strong> · <span class="var">&lt;&lt;TER&gt;&gt;</span></div>
-    <div class="doss-bandeau-page">Indicateur 1/2 — Vie sociale &amp; isolement</div>
+    <div class="doss-bandeau-page">Indicateur 1/2 — Vie sociale &amp; risque d'isolement</div>
   </div>
   <div class="doss-content">
-    <div class="doss-eyebrow">Approfondissement</div>
-    <h2 class="doss-titre"><strong>Personnes vivant seules</strong> :<br/>une lecture par âge, par quartier, dans la durée</h2>
-    <p class="doss-intro">L'isolement résidentiel est un indicateur composite, sensible à la structure démographique, au parc de logement et aux trajectoires familiales. Pour <span class="var">&lt;&lt;TER&gt;&gt;</span>, la lecture mérite d'être conduite à plusieurs échelles, sans s'arrêter au chiffre agrégé.</p>
-    <div class="doss-method">
-      <div class="doss-method-titre">Définition &amp; sources</div>
-      <div class="doss-method-corps">Une <strong>personne vivant seule</strong> est, au sens de l'INSEE, une personne qui occupe seule une résidence principale (un seul adulte, sans enfant). Elle est distincte des « familles monoparentales » (un adulte avec enfant). Source primaire&nbsp;: <strong>INSEE, recensement de la population, millésime 2022</strong>. Pour les communes de plus de 10&nbsp;000 habitants, la donnée est lissée sur cinq ans (collecte 2020-2024).</div>
-    </div>
-    <div class="doss-keynumbers">
-      <div class="doss-key">
-        <div class="doss-key-val">48 %</div>
-        <div class="doss-key-lab">des ménages sont des personnes seules pour <span class="var">&lt;&lt;TER&gt;&gt;</span></div>
-      </div>
-      <div class="doss-key">
-        <div class="doss-key-val">+ 6 pts</div>
-        <div class="doss-key-lab">d'écart avec l'EPCI / + 9 pts avec la France métropolitaine</div>
-      </div>
-      <div class="doss-key">
-        <div class="doss-key-val">+ 4 pts</div>
-        <div class="doss-key-lab">d'augmentation entre 2016 et 2022 sur le territoire</div>
-      </div>
-    </div>
-    <div class="doss-row">
+    <div class="doss-eyebrow">VIE SOCIALE &amp; RISQUE D'ISOLEMENT</div>
+    <div class="doss-row" style="margin-bottom:4mm;">
       <div class="doss-card">
-        <div class="doss-card-titre">Lecture par tranche d'âge</div>
+        <div class="doss-card-titre">Typologie des ménages</div>
         <div class="doss-card-source">Source : INSEE, 2022</div>
-        <table class="doss-table">
-          <thead>
-            <tr>
-              <th>Âge</th>
-              <th><span class="var">&lt;&lt;TER&gt;&gt;</span></th>
-              <th>EPCI</th>
-              <th>France</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>15–24 ans</td><td class="focus">20 %</td><td>11 %</td><td>14 %</td></tr>
-            <tr><td>25–39 ans</td><td class="focus">25 %</td><td>17 %</td><td>17 %</td></tr>
-            <tr><td>40–64 ans</td><td class="focus">28 %</td><td>18 %</td><td>19 %</td></tr>
-            <tr><td>65–79 ans</td><td class="focus">39 %</td><td>30 %</td><td>28 %</td></tr>
-            <tr><td>80 ans et +</td><td class="focus">54 %</td><td>43 %</td><td>42 %</td></tr>
-          </tbody>
-        </table>
+        <svg viewBox="0 0 290 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <line x1="30" y1="120" x2="285" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <line x1="30" y1="20" x2="30" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <line x1="30" y1="95" x2="285" y2="95" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <line x1="30" y1="70" x2="285" y2="70" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <line x1="30" y1="45" x2="285" y2="45" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <text x="27" y="123" font-size="6" fill="#6E6E6E" text-anchor="end">0%</text>
+          <text x="27" y="98" font-size="6" fill="#6E6E6E" text-anchor="end">20%</text>
+          <text x="27" y="73" font-size="6" fill="#6E6E6E" text-anchor="end">40%</text>
+          <text x="27" y="48" font-size="6" fill="#6E6E6E" text-anchor="end">60%</text>
+          <!-- Couple avec enfant(s) -->
+          <rect x="33" y="93" width="5" height="27" fill="#5c368d"/>
+          <rect x="39" y="87" width="5" height="33" fill="#8fba94"/>
+          <rect x="45" y="89" width="5" height="31" fill="#c3d9c5"/>
+          <rect x="51" y="88" width="5" height="32" fill="#f07322"/>
+          <rect x="57" y="88" width="5" height="32" fill="#D4D4D4"/>
+          <text x="48" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Couple avec</text>
+          <text x="48" y="139" font-size="5" fill="#6E6E6E" text-anchor="middle">enfant(s)</text>
+          <!-- Famille monoparentale -->
+          <rect x="85" y="112" width="5" height="8" fill="#5c368d"/>
+          <rect x="91" y="107" width="5" height="13" fill="#8fba94"/>
+          <rect x="97" y="106" width="5" height="14" fill="#c3d9c5"/>
+          <rect x="103" y="108" width="5" height="12" fill="#f07322"/>
+          <rect x="109" y="107" width="5" height="13" fill="#D4D4D4"/>
+          <text x="99" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Famille</text>
+          <text x="99" y="139" font-size="5" fill="#6E6E6E" text-anchor="middle">monoparentale</text>
+          <!-- Couple sans enfant -->
+          <rect x="137" y="88" width="5" height="32" fill="#5c368d"/>
+          <rect x="143" y="84" width="5" height="36" fill="#8fba94"/>
+          <rect x="149" y="85" width="5" height="35" fill="#c3d9c5"/>
+          <rect x="155" y="84" width="5" height="36" fill="#f07322"/>
+          <rect x="161" y="84" width="5" height="36" fill="#D4D4D4"/>
+          <text x="151" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Couple sans</text>
+          <text x="151" y="139" font-size="5" fill="#6E6E6E" text-anchor="middle">enfant</text>
+          <!-- Personne seule — Ma commune 31%, Dept 42%, France 39% -->
+          <rect x="189" y="82" width="5" height="38" fill="#5c368d"/>
+          <rect x="195" y="74" width="5" height="46" fill="#8fba94"/>
+          <rect x="201" y="70" width="5" height="50" fill="#c3d9c5"/>
+          <rect x="207" y="72" width="5" height="48" fill="#f07322"/>
+          <rect x="213" y="71" width="5" height="49" fill="#D4D4D4"/>
+          <text x="203" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Personne seule</text>
+          <!-- Autre -->
+          <rect x="245" y="116" width="5" height="4" fill="#5c368d"/>
+          <rect x="251" y="113" width="5" height="7" fill="#8fba94"/>
+          <rect x="257" y="113" width="5" height="7" fill="#c3d9c5"/>
+          <rect x="263" y="113" width="5" height="7" fill="#f07322"/>
+          <rect x="269" y="114" width="5" height="6" fill="#D4D4D4"/>
+          <text x="259" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Autre</text>
+          <!-- Légende -->
+          <rect x="33" y="148" width="5" height="4" fill="#5c368d"/><text x="40" y="152" font-size="5" fill="#231F20">Ma commune-mon EPCI</text>
+          <rect x="115" y="148" width="5" height="4" fill="#8fba94"/><text x="122" y="152" font-size="5" fill="#231F20">Mon EPCI-autre commune</text>
+          <rect x="213" y="148" width="5" height="4" fill="#c3d9c5"/><text x="220" y="152" font-size="5" fill="#231F20">Mon département</text>
+          <rect x="33" y="156" width="5" height="4" fill="#f07322"/><text x="40" y="160" font-size="5" fill="#231F20">Ma région</text>
+          <rect x="115" y="156" width="5" height="4" fill="#D4D4D4"/><text x="122" y="160" font-size="5" fill="#231F20">France métropolitaine</text>
+        </svg>
       </div>
       <div class="doss-card">
-        <div class="doss-card-titre">Évolution sur dix ans</div>
-        <div class="doss-card-source">Source : INSEE, 2012-2022</div>
-        <svg viewBox="0 0 280 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
-          <line x1="30" y1="110" x2="270" y2="110" stroke="#231F20" stroke-width="0.5"/>
-          <line x1="30" y1="20" x2="30" y2="110" stroke="#231F20" stroke-width="0.5"/>
-          <line x1="30" y1="80" x2="270" y2="80" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
-          <line x1="30" y1="50" x2="270" y2="50" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
-          <text x="27" y="113" font-size="7" fill="#6E6E6E" text-anchor="end">35%</text>
-          <text x="27" y="83" font-size="7" fill="#6E6E6E" text-anchor="end">40%</text>
-          <text x="27" y="53" font-size="7" fill="#6E6E6E" text-anchor="end">45%</text>
-          <text x="27" y="23" font-size="7" fill="#6E6E6E" text-anchor="end">50%</text>
-          <g font-size="7" fill="#6E6E6E" text-anchor="middle">
-            <text x="55" y="124">2012</text>
-            <text x="115" y="124">2017</text>
-            <text x="180" y="124">2020</text>
-            <text x="245" y="124">2022</text>
-          </g>
-          <polyline points="55,68 115,55 180,38 245,32" fill="none" stroke="#5c368d" stroke-width="2"/>
-          <g fill="#5c368d">
-            <circle cx="55" cy="68" r="3"/>
-            <circle cx="115" cy="55" r="3"/>
-            <circle cx="180" cy="38" r="3"/>
-            <circle cx="245" cy="32" r="3"/>
-          </g>
-          <polyline points="55,80 115,75 180,72 245,68" fill="none" stroke="#C9C0C2" stroke-width="1.5" stroke-dasharray="3,2"/>
-          <g font-size="7">
-            <text x="245" y="28" fill="#5c368d" text-anchor="end" font-weight="700">&lt;&lt;TER&gt;&gt; · 48 %</text>
-            <text x="245" y="64" fill="#6E6E6E" text-anchor="end">France · 39 %</text>
-          </g>
+        <div class="doss-card-titre">Part des personnes vivant seules selon l'âge</div>
+        <div class="doss-card-source">Source : INSEE, 2022</div>
+        <svg viewBox="0 0 290 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <line x1="30" y1="120" x2="285" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <line x1="30" y1="20" x2="30" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <line x1="30" y1="95" x2="285" y2="95" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <line x1="30" y1="70" x2="285" y2="70" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <text x="27" y="123" font-size="6" fill="#6E6E6E" text-anchor="end">0%</text>
+          <text x="27" y="98" font-size="6" fill="#6E6E6E" text-anchor="end">25%</text>
+          <text x="27" y="73" font-size="6" fill="#6E6E6E" text-anchor="end">50%</text>
+          <!-- 15-24 ans: Ma commune 6%, Dept 23%, France 14% -->
+          <rect x="33" y="115" width="5" height="5" fill="#5c368d"/>
+          <rect x="39" y="113" width="5" height="7" fill="#8fba94"/>
+          <rect x="45" y="106" width="5" height="14" fill="#c3d9c5"/>
+          <rect x="51" y="109" width="5" height="11" fill="#f07322"/>
+          <rect x="57" y="108" width="5" height="12" fill="#D4D4D4"/>
+          <text x="48" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">15-24 ans</text>
+          <!-- 25-39 ans -->
+          <rect x="85" y="112" width="5" height="8" fill="#5c368d"/>
+          <rect x="91" y="108" width="5" height="12" fill="#8fba94"/>
+          <rect x="97" y="103" width="5" height="17" fill="#c3d9c5"/>
+          <rect x="103" y="105" width="5" height="15" fill="#f07322"/>
+          <rect x="109" y="104" width="5" height="16" fill="#D4D4D4"/>
+          <text x="99" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">25-39 ans</text>
+          <!-- 40-64 ans -->
+          <rect x="137" y="108" width="5" height="12" fill="#5c368d"/>
+          <rect x="143" y="105" width="5" height="15" fill="#8fba94"/>
+          <rect x="149" y="99" width="5" height="21" fill="#c3d9c5"/>
+          <rect x="155" y="101" width="5" height="19" fill="#f07322"/>
+          <rect x="161" y="100" width="5" height="20" fill="#D4D4D4"/>
+          <text x="151" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">40-64 ans</text>
+          <!-- 65-79 ans -->
+          <rect x="189" y="100" width="5" height="20" fill="#5c368d"/>
+          <rect x="195" y="96" width="5" height="24" fill="#8fba94"/>
+          <rect x="201" y="90" width="5" height="30" fill="#c3d9c5"/>
+          <rect x="207" y="92" width="5" height="28" fill="#f07322"/>
+          <rect x="213" y="91" width="5" height="29" fill="#D4D4D4"/>
+          <text x="203" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">65-79 ans</text>
+          <!-- 80 ans et plus: Ma commune 28%, Dept 43%, France 42% -->
+          <rect x="245" y="86" width="5" height="34" fill="#5c368d"/>
+          <rect x="251" y="79" width="5" height="41" fill="#8fba94"/>
+          <rect x="257" y="68" width="5" height="52" fill="#c3d9c5"/>
+          <rect x="263" y="69" width="5" height="51" fill="#f07322"/>
+          <rect x="269" y="69" width="5" height="51" fill="#D4D4D4"/>
+          <text x="259" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">80 ans et +</text>
+          <!-- Légende -->
+          <rect x="33" y="148" width="5" height="4" fill="#5c368d"/><text x="40" y="152" font-size="5" fill="#231F20">Ma commune-mon EPCI</text>
+          <rect x="115" y="148" width="5" height="4" fill="#8fba94"/><text x="122" y="152" font-size="5" fill="#231F20">Mon EPCI-autre commune</text>
+          <rect x="213" y="148" width="5" height="4" fill="#c3d9c5"/><text x="220" y="152" font-size="5" fill="#231F20">Mon département</text>
+          <rect x="33" y="156" width="5" height="4" fill="#f07322"/><text x="40" y="160" font-size="5" fill="#231F20">Ma région</text>
+          <rect x="115" y="156" width="5" height="4" fill="#D4D4D4"/><text x="122" y="160" font-size="5" fill="#231F20">France métropolitaine</text>
         </svg>
       </div>
     </div>
+    <div class="doss-keynumbers" style="grid-template-columns:1fr 1fr;margin-bottom:4mm;">
+      <div class="doss-key">
+        <div class="doss-key-val">191</div>
+        <div class="doss-key-lab">Le nombre de familles monoparentales</div>
+      </div>
+      <div class="doss-key">
+        <div class="doss-key-val">18</div>
+        <div class="doss-key-lab">Le ratio aidants-aidés pour la commune, contre 21 pour la France métropolitaine</div>
+      </div>
+    </div>
     <div class="doss-encart">
-      <div class="doss-encart-titre">Le zoom Ithéa</div>
-      <div class="doss-encart-corps">L'isolement résidentiel n'est pas qu'un fait démographique : c'est un déterminant majeur de la santé <em>(BEH 2023, Santé Publique France)</em>, de la précarité énergétique et du recours aux services publics. Pour <span class="var">&lt;&lt;TER&gt;&gt;</span>, il croise trois autres dimensions visibles dans les autres Profils thématiques&nbsp;: la précarité monétaire, l'accessibilité de l'offre de soins et le vieillissement. Lus ensemble, ces quatre indicateurs constituent un noyau dur de pilotage des politiques sociales locales.</div>
+      <div class="doss-encart-titre">Un risque d'isolement moindre pour les habitants</div>
+      <div class="doss-encart-corps">
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:2mm;">
+          <li style="padding-left:5mm;position:relative;"><span style="position:absolute;left:0;">•</span> <strong>31%</strong> des ménages qui sont des personnes vivant seules pour ma commune-mon EPCI, contre 42% pour mon département ou encore 39% pour la France métropolitaine</li>
+          <li style="padding-left:5mm;position:relative;"><span style="position:absolute;left:0;">•</span> <strong>6%</strong> des jeunes de 15-24 ans vivant seuls à l'échelle de la commune, contre 23% pour mon département ou encore 14% pour la France métropolitaine</li>
+          <li style="padding-left:5mm;position:relative;"><span style="position:absolute;left:0;">•</span> <strong>28%</strong> des personnes âgées de 80 ans et plus vivant seules à l'échelle de la commune, contre 43% pour mon département ou encore 42% pour la France métropolitaine</li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="doss-pied">
@@ -2038,53 +2095,56 @@ body{padding:30px 0;}
     <div class="doss-bandeau-page">Indicateur 2/2 — Lecture cartographique</div>
   </div>
   <div class="doss-content">
-    <div class="doss-eyebrow">Approfondissement</div>
-    <h2 class="doss-titre"><strong>L'isolement à l'échelle intercommunale</strong> :<br/>où se concentrent les fragilités&nbsp;?</h2>
-    <p class="doss-intro">Lue à l'échelle de la commune, la part des personnes vivant seules masque des disparités très fortes <em>au sein</em> de l'EPCI. La cartographie ci-dessous situe <span class="var">&lt;&lt;TER&gt;&gt;</span> dans son ensemble intercommunal et identifie les communes voisines qui partagent ses caractéristiques.</p>
-    <div class="doss-carte">
+    <div class="doss-eyebrow">Mon EPCI</div>
+    <div class="doss-carte" style="margin-bottom:4mm;">
       <div class="doss-carte-svg">
-        <svg viewBox="0 0 480 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-          <path d="M 60 100 L 130 60 L 220 50 L 320 70 L 400 100 L 430 180 L 410 260 L 350 290 L 250 310 L 150 290 L 80 240 L 50 170 Z" fill="#FAFAF8" stroke="#231F20" stroke-width="1.5"/>
-          <path d="M 220 130 L 270 130 L 290 165 L 270 195 L 220 195 L 200 165 Z" fill="#5c368d" stroke="white" stroke-width="1"/>
-          <path d="M 180 200 L 220 195 L 230 230 L 200 250 L 170 240 Z" fill="#5c368d" stroke="white" stroke-width="1"/>
-          <path d="M 270 130 L 320 130 L 330 160 L 290 165 Z" fill="#7c5fa3" stroke="white" stroke-width="1"/>
-          <path d="M 270 195 L 290 165 L 330 160 L 350 200 L 310 220 Z" fill="#7c5fa3" stroke="white" stroke-width="1"/>
-          <path d="M 230 230 L 270 220 L 280 255 L 240 270 Z" fill="#7c5fa3" stroke="white" stroke-width="1"/>
-          <path d="M 130 100 L 180 100 L 200 140 L 170 170 L 130 160 Z" fill="#a791c1" stroke="white" stroke-width="1"/>
-          <path d="M 320 100 L 380 100 L 390 140 L 340 145 Z" fill="#a791c1" stroke="white" stroke-width="1"/>
-          <path d="M 350 200 L 390 195 L 405 235 L 370 250 L 320 235 L 310 220 Z" fill="#a791c1" stroke="white" stroke-width="1"/>
-          <path d="M 80 130 L 130 100 L 130 160 L 100 175 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 100 175 L 130 160 L 170 170 L 180 200 L 170 240 L 130 235 L 90 210 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 220 195 L 180 200 L 170 170 L 200 165 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 380 100 L 410 130 L 415 170 L 390 195 L 390 140 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 130 235 L 170 240 L 200 250 L 230 260 L 220 290 L 170 285 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 280 255 L 320 235 L 370 250 L 360 285 L 310 295 L 270 280 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 130 100 L 220 60 L 270 80 L 250 110 L 200 105 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <path d="M 250 110 L 270 80 L 320 80 L 340 110 L 320 130 L 270 130 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
-          <circle cx="245" cy="165" r="11" fill="#231F20" stroke="white" stroke-width="3"/>
-          <text x="245" y="169" font-size="11" font-family="'Josefin Sans',sans-serif" font-weight="700" fill="white" text-anchor="middle">★</text>
-          <line x1="245" y1="155" x2="280" y2="40" stroke="#231F20" stroke-width="0.6"/>
-          <text x="280" y="35" font-size="10" font-family="'Josefin Sans',sans-serif" font-weight="600" fill="#231F20">&lt;&lt;TER&gt;&gt;</text>
-          <text x="280" y="48" font-size="8" fill="#6E6E6E">48 % · au-dessus de tout l'EPCI</text>
-          <text x="430" y="100" font-size="8" font-weight="700" fill="#231F20" text-anchor="end">CA &lt;&lt;EPCI&gt;&gt;</text>
+        <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+          <text x="430" y="22" font-size="9" font-weight="700" fill="#231F20" text-anchor="end">Mon EPCI</text>
+          <!-- Périmètre EPCI -->
+          <path d="M 80 60 L 160 35 L 280 45 L 380 80 L 420 160 L 390 240 L 300 270 L 190 270 L 100 245 L 55 170 Z" fill="#FAFAF8" stroke="#231F20" stroke-width="1.5"/>
+          <!-- Communes violettes foncées (Plus de 20%) -->
+          <path d="M 210 115 L 270 115 L 290 155 L 260 185 L 210 180 L 190 150 Z" fill="#5c368d" stroke="white" stroke-width="1"/>
+          <path d="M 175 185 L 210 180 L 220 215 L 190 235 L 162 222 Z" fill="#5c368d" stroke="white" stroke-width="1"/>
+          <!-- De 17% à 20% -->
+          <path d="M 270 115 L 320 120 L 325 150 L 290 155 Z" fill="#7c5fa3" stroke="white" stroke-width="1"/>
+          <path d="M 260 185 L 290 155 L 325 150 L 335 190 L 300 210 Z" fill="#7c5fa3" stroke="white" stroke-width="1"/>
+          <path d="M 220 215 L 260 205 L 270 240 L 230 250 Z" fill="#7c5fa3" stroke="white" stroke-width="1"/>
+          <!-- De 14% à 17% -->
+          <path d="M 130 90 L 175 88 L 190 130 L 162 158 L 128 148 Z" fill="#a791c1" stroke="white" stroke-width="1"/>
+          <path d="M 315 90 L 370 100 L 375 135 L 325 140 L 320 120 Z" fill="#a791c1" stroke="white" stroke-width="1"/>
+          <path d="M 335 190 L 375 185 L 388 222 L 352 235 L 308 218 L 300 210 Z" fill="#a791c1" stroke="white" stroke-width="1"/>
+          <!-- Moins de 14% -->
+          <path d="M 82 120 L 130 90 L 128 148 L 100 162 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 100 162 L 128 148 L 162 158 L 175 185 L 162 222 L 122 218 L 88 195 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 210 180 L 175 185 L 162 158 L 190 150 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 375 135 L 400 152 L 405 188 L 388 222 L 375 185 L 375 135 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 122 218 L 162 222 L 190 235 L 220 245 L 210 262 L 155 258 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 270 240 L 308 228 L 352 235 L 340 262 L 296 268 L 258 255 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 140 88 L 210 58 L 260 72 L 248 102 L 195 98 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
+          <path d="M 248 102 L 268 72 L 315 82 L 325 108 L 315 120 L 270 115 Z" fill="#d4c8e0" stroke="white" stroke-width="1"/>
         </svg>
       </div>
       <div class="doss-legende">
-        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#d4c8e0"></div>Moins de 12 %</div>
-        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#a791c1"></div>12 % à 14 %</div>
-        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#7c5fa3"></div>14 % à 16 %</div>
-        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#5c368d"></div>Plus de 16 %</div>
-        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#FAFAF8;border:1px solid #6E6E6E"></div>Données ND</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#d4c8e0"></div>Moins de 14%</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#a791c1"></div>De 14% à 17%</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#7c5fa3"></div>De 17% à 20%</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#5c368d"></div>Plus de 20%</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#FAFAF8;border:1px solid #6E6E6E"></div>Données non disponibles</div>
       </div>
     </div>
-    <div class="doss-row" style="margin-bottom:5mm;">
-      <div class="doss-method" style="margin-bottom:0;">
-        <div class="doss-method-titre">Précautions de lecture</div>
-        <div class="doss-method-corps">La cartographie est lissée à l'échelle communale. Pour <span class="var">&lt;&lt;TER&gt;&gt;</span>, des disparités infra-communales existent — notamment sur le secteur <span class="var">&lt;&lt;quartier&gt;&gt;</span>, où la part des personnes vivant seules atteint 56 %. Le <strong>Profil Quartier</strong>, livré gratuitement avec l'abonnement, permet de descendre à cette échelle.</div>
-      </div>
-      <div class="doss-method" style="margin-bottom:0;">
-        <div class="doss-method-titre">Comparaison régionale</div>
-        <div class="doss-method-corps"><span class="var">&lt;&lt;TER&gt;&gt;</span> partage son profil avec un groupe de 23 communes de la région, identifiées par <strong>typologie statistique INSEE</strong>. Ces villes-pivots de couronne urbaine présentent toutes la combinaison « parc social ancien + vieillissement + isolement » qui structure les politiques locales actuelles.</div>
+    <div class="doss-method" style="margin-bottom:4mm;">
+      <div class="doss-method-titre">Part de la population vivant seule — Source : INSEE, 2022</div>
+      <div class="doss-method-corps">À l'échelle de Clermont Auvergne Métropole, la part la plus élevée de personnes vivant seules est enregistrée pour <strong>Chamalières (37%)</strong>. La plus faible est quant à elle enregistrée pour <strong>Saint-Genès-Champanelle (13%)</strong>.</div>
+    </div>
+    <div class="doss-encart">
+      <div class="doss-encart-titre">Le vivre ensemble</div>
+      <div class="doss-encart-corps">
+        Selon les résultats du baromètre du vivre-ensemble réalisé pour le Groupe SOS en collaboration avec Opinion Way, <strong>42% des Français</strong> considèrent le vivre ensemble comme une valeur importante dans leur quotidien, devant le mérite ou le travail. Il est principalement associé au respect des autres, à l'acceptation des différences et à l'harmonie.
+        <br/><br/>
+        Les acteurs clés contribuant le plus au vivre-ensemble seraient les associations et l'école. Toutefois à ce jour, ce principe ne semble pas être pleinement une réalité en France. Les répondants sont nombreux à être favorables à une sensibilisation dès le plus jeune âge.
+        <br/><em>Sondage OpinionWay pour le Groupe SOS, Janvier 2025.</em>
+        <br/><br/>
+        <strong>Initiative inspirante :</strong> Le Festival « Vita'Rue » à <strong>Mulhouse (68)</strong> — À découvrir dans l'onglet « Bonnes pratiques » sur ithea-conseil.fr
       </div>
     </div>
   </div>
@@ -2094,7 +2154,184 @@ body{padding:30px 0;}
   </div>
 </div>
 
-<!-- PAGE 7 — ABONNEMENT -->
+<!-- PAGE 7 — MOBILITÉ ET TRANSPORTS 1/2 -->
+<div class="page doss">
+  <div class="doss-bandeau">
+    <div class="doss-bandeau-left">Extrait du dossier détaillé · <strong>Vie locale</strong> · <span class="var">&lt;&lt;TER&gt;&gt;</span></div>
+    <div class="doss-bandeau-page">Mobilité et transports 1/2 — Déplacements domicile-travail</div>
+  </div>
+  <div class="doss-content">
+    <div class="doss-eyebrow">MOBILITÉ ET TRANSPORTS</div>
+    <div class="doss-row" style="margin-bottom:4mm;">
+      <div class="doss-card">
+        <div class="doss-card-titre">Lieu de travail des actifs occupés</div>
+        <div class="doss-card-source">Source : INSEE, 2022</div>
+        <svg viewBox="0 0 290 160" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <line x1="30" y1="120" x2="285" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <line x1="30" y1="20" x2="30" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <line x1="30" y1="95" x2="285" y2="95" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <line x1="30" y1="70" x2="285" y2="70" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <line x1="30" y1="45" x2="285" y2="45" stroke="#D4D4D4" stroke-width="0.3" stroke-dasharray="2,2"/>
+          <text x="27" y="123" font-size="6" fill="#6E6E6E" text-anchor="end">0%</text>
+          <text x="27" y="98" font-size="6" fill="#6E6E6E" text-anchor="end">50%</text>
+          <text x="27" y="73" font-size="6" fill="#6E6E6E" text-anchor="end">100%</text>
+          <!-- Commune de résidence: Ma commune 11%, autres ~20-35% -->
+          <rect x="33" y="110" width="7" height="10" fill="#5c368d"/>
+          <rect x="41" y="104" width="7" height="16" fill="#8fba94"/>
+          <rect x="49" y="100" width="7" height="20" fill="#c3d9c5"/>
+          <rect x="57" y="102" width="7" height="18" fill="#f07322"/>
+          <rect x="65" y="101" width="7" height="19" fill="#D4D4D4"/>
+          <text x="52" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Commune de</text>
+          <text x="52" y="139" font-size="5" fill="#6E6E6E" text-anchor="middle">résidence</text>
+          <!-- Autre commune du département: ~55-65% -->
+          <rect x="130" y="47" width="7" height="73" fill="#5c368d"/>
+          <rect x="138" y="49" width="7" height="71" fill="#8fba94"/>
+          <rect x="146" y="52" width="7" height="68" fill="#c3d9c5"/>
+          <rect x="154" y="50" width="7" height="70" fill="#f07322"/>
+          <rect x="162" y="51" width="7" height="69" fill="#D4D4D4"/>
+          <text x="149" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Autre commune</text>
+          <text x="149" y="139" font-size="5" fill="#6E6E6E" text-anchor="middle">du département</text>
+          <!-- Autre département: ~5-12% -->
+          <rect x="228" y="108" width="7" height="12" fill="#5c368d"/>
+          <rect x="236" y="111" width="7" height="9" fill="#8fba94"/>
+          <rect x="244" y="112" width="7" height="8" fill="#c3d9c5"/>
+          <rect x="252" y="111" width="7" height="9" fill="#f07322"/>
+          <rect x="260" y="112" width="7" height="8" fill="#D4D4D4"/>
+          <text x="248" y="133" font-size="5" fill="#6E6E6E" text-anchor="middle">Autre</text>
+          <text x="248" y="139" font-size="5" fill="#6E6E6E" text-anchor="middle">département</text>
+          <!-- Légende -->
+          <rect x="33" y="148" width="5" height="4" fill="#5c368d"/><text x="40" y="152" font-size="5" fill="#231F20">Ma commune-mon EPCI</text>
+          <rect x="115" y="148" width="5" height="4" fill="#8fba94"/><text x="122" y="152" font-size="5" fill="#231F20">Mon EPCI-autre commune</text>
+          <rect x="213" y="148" width="5" height="4" fill="#c3d9c5"/><text x="220" y="152" font-size="5" fill="#231F20">Mon département</text>
+          <rect x="33" y="156" width="5" height="4" fill="#f07322"/><text x="40" y="160" font-size="5" fill="#231F20">Ma région</text>
+          <rect x="115" y="156" width="5" height="4" fill="#D4D4D4"/><text x="122" y="160" font-size="5" fill="#231F20">France métropolitaine</text>
+        </svg>
+      </div>
+      <div class="doss-card">
+        <div class="doss-card-titre">Véhicules immatriculés électriques ou au gaz</div>
+        <div class="doss-card-source">Source : Agence ORE, mars 2025</div>
+        <svg viewBox="0 0 290 130" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <!-- Barres horizontales -->
+          <line x1="30" y1="10" x2="30" y2="120" stroke="#231F20" stroke-width="0.5"/>
+          <!-- Ma commune-mon EPCI: 4,8% -->
+          <text x="27" y="30" font-size="6" fill="#6E6E6E" text-anchor="end">Ma commune</text>
+          <rect x="32" y="22" width="138" height="10" fill="#5c368d"/>
+          <text x="174" y="30" font-size="6" fill="#231F20" font-weight="700">4,8%</text>
+          <!-- Mon EPCI-autre commune: 2,9% -->
+          <text x="27" y="48" font-size="6" fill="#6E6E6E" text-anchor="end">Mon EPCI</text>
+          <rect x="32" y="40" width="84" height="10" fill="#8fba94"/>
+          <text x="120" y="48" font-size="6" fill="#231F20">2,9%</text>
+          <!-- Mon département: 2,4% -->
+          <text x="27" y="66" font-size="6" fill="#6E6E6E" text-anchor="end">Département</text>
+          <rect x="32" y="58" width="69" height="10" fill="#c3d9c5"/>
+          <text x="105" y="66" font-size="6" fill="#231F20">2,4%</text>
+          <!-- Ma région: 3,0% -->
+          <text x="27" y="84" font-size="6" fill="#6E6E6E" text-anchor="end">Ma région</text>
+          <rect x="32" y="76" width="87" height="10" fill="#f07322"/>
+          <text x="123" y="84" font-size="6" fill="#231F20">3,0%</text>
+          <!-- France métropolitaine: 2,9% -->
+          <text x="27" y="102" font-size="6" fill="#6E6E6E" text-anchor="end">France métr.</text>
+          <rect x="32" y="94" width="84" height="10" fill="#D4D4D4"/>
+          <text x="120" y="102" font-size="6" fill="#231F20">2,9%</text>
+        </svg>
+      </div>
+    </div>
+    <div class="doss-keynumbers" style="grid-template-columns:1fr 1fr;margin-bottom:4mm;">
+      <div class="doss-key">
+        <div class="doss-key-val">31</div>
+        <div class="doss-key-lab">La durée moyenne en minutes des déplacements domicile-travail des navetteurs</div>
+      </div>
+      <div class="doss-key">
+        <div class="doss-key-val">52%</div>
+        <div class="doss-key-lab">La part des ménages de la commune équipés de 2 voitures ou plus</div>
+      </div>
+    </div>
+    <div class="doss-encart">
+      <div class="doss-encart-titre">Des actifs qui ont des temps de trajet domicile-travail plutôt élevés</div>
+      <div class="doss-encart-corps">
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:2mm;">
+          <li style="padding-left:5mm;position:relative;"><span style="position:absolute;left:0;">•</span> Une durée moyenne de trajet domicile-travail de <strong>31 minutes</strong> pour ma commune-mon EPCI contre 26 minutes pour mon département ou encore 25 minutes pour la France métropolitaine</li>
+          <li style="padding-left:5mm;position:relative;"><span style="position:absolute;left:0;">•</span> <strong>11%</strong> des actifs travaillant dans leur commune de résidence</li>
+          <li style="padding-left:5mm;position:relative;"><span style="position:absolute;left:0;">•</span> Des véhicules électriques ou au gaz qui représentent <strong>4,8%</strong> du parc automobile de la commune</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="doss-pied">
+    <div>Profils thématiques · <strong>Vie locale · <span class="var">&lt;&lt;TER&gt;&gt;</span></strong></div>
+    <div>Page 7</div>
+  </div>
+</div>
+
+<!-- PAGE 8 — MOBILITÉ ET TRANSPORTS 2/2 -->
+<div class="page doss">
+  <div class="doss-bandeau">
+    <div class="doss-bandeau-left">Extrait du dossier détaillé · <strong>Vie locale</strong> · <span class="var">&lt;&lt;TER&gt;&gt;</span></div>
+    <div class="doss-bandeau-page">Mobilité et transports 2/2 — Lecture cartographique</div>
+  </div>
+  <div class="doss-content">
+    <div class="doss-eyebrow">Mon EPCI</div>
+    <div class="doss-carte" style="margin-bottom:4mm;">
+      <div class="doss-carte-svg">
+        <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+          <text x="430" y="22" font-size="9" font-weight="700" fill="#231F20" text-anchor="end">Mon EPCI</text>
+          <!-- Périmètre EPCI -->
+          <path d="M 80 60 L 160 35 L 280 45 L 380 80 L 420 160 L 390 240 L 300 270 L 190 270 L 100 245 L 55 170 Z" fill="#FAFAF8" stroke="#231F20" stroke-width="1.5"/>
+          <!-- Communes par temps de trajet — bleus -->
+          <!-- Plus de 30 minutes (ex. Saint-Genès-Champanelle 38 min) - bleu foncé -->
+          <path d="M 82 120 L 130 90 L 128 148 L 100 162 Z" fill="#1a5276" stroke="white" stroke-width="1"/>
+          <path d="M 268 72 L 315 82 L 325 108 L 315 120 L 270 115 Z" fill="#1a5276" stroke="white" stroke-width="1"/>
+          <!-- De 25 à 30 minutes - bleu moyen -->
+          <path d="M 210 115 L 270 115 L 290 155 L 260 185 L 210 180 L 190 150 Z" fill="#2980b9" stroke="white" stroke-width="1"/>
+          <path d="M 315 120 L 325 140 L 325 150 L 290 155 Z" fill="#2980b9" stroke="white" stroke-width="1"/>
+          <path d="M 175 185 L 210 180 L 220 215 L 190 235 L 162 222 Z" fill="#2980b9" stroke="white" stroke-width="1"/>
+          <!-- De 20 à 25 minutes -->
+          <path d="M 130 90 L 175 88 L 190 130 L 162 158 L 128 148 Z" fill="#7fb3d3" stroke="white" stroke-width="1"/>
+          <path d="M 270 115 L 320 120 L 325 150 L 290 155 Z" fill="#7fb3d3" stroke="white" stroke-width="1"/>
+          <path d="M 260 185 L 290 155 L 325 140 L 335 190 L 300 210 Z" fill="#7fb3d3" stroke="white" stroke-width="1"/>
+          <path d="M 335 190 L 375 185 L 388 222 L 352 235 L 308 218 L 300 210 Z" fill="#7fb3d3" stroke="white" stroke-width="1"/>
+          <!-- Moins de 20 minutes (ex. Chamalières 16 min) -->
+          <path d="M 100 162 L 128 148 L 162 158 L 175 185 L 162 222 L 122 218 L 88 195 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 210 180 L 175 185 L 162 158 L 190 150 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 375 135 L 400 152 L 405 188 L 388 222 L 375 185 L 375 135 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 220 215 L 260 205 L 270 240 L 230 250 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 122 218 L 162 222 L 190 235 L 220 245 L 210 262 L 155 258 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 270 240 L 308 228 L 352 235 L 340 262 L 296 268 L 258 255 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 140 88 L 210 58 L 260 72 L 248 102 L 195 98 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+          <path d="M 315 90 L 370 100 L 375 135 L 325 140 L 320 120 Z" fill="#d6eaf8" stroke="white" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="doss-legende">
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#d6eaf8"></div>Moins de 20 min</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#7fb3d3"></div>De 20 à 25 min</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#2980b9"></div>De 25 à 30 min</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#1a5276"></div>Plus de 30 min</div>
+        <div class="doss-leg-item"><div class="doss-leg-color" style="background:#FAFAF8;border:1px solid #6E6E6E"></div>Données non disponibles</div>
+      </div>
+    </div>
+    <div class="doss-method" style="margin-bottom:4mm;">
+      <div class="doss-method-titre">Temps de trajet moyen domicile-travail — Source : INSEE, 2019</div>
+      <div class="doss-method-corps">À l'échelle de Clermont Auvergne Métropole, le temps de trajet domicile-travail le plus élevé est enregistré pour <strong>Saint-Genès-Champanelle (38 min)</strong>. Le plus faible est quant à lui enregistré pour <strong>Chamalières (16 min)</strong>.</div>
+    </div>
+    <div class="doss-encart">
+      <div class="doss-encart-titre">Le coût des transports</div>
+      <div class="doss-encart-corps">
+        Les Français mettent en moyenne <strong>1h10*</strong> par jour pour aller et revenir du travail. Ils consacrent également 19 minutes pour aller faire leurs courses alimentaires, 17 minutes pour des activités sportives et 13 minutes pour réaliser des démarches administratives.
+        <br/><br/>
+        Selon Ipsos, ils dépensent en moyenne <strong>204€ par mois</strong> pour se déplacer. Ces coûts grimpent dans les milieux périurbains et ruraux (autour de 223€) et ont un impact considérable sur le pouvoir d'achat des Français les plus modestes (au sein des foyers les plus fragiles, vivant avec moins de 1 250€ net par mois, le coût individuel de la mobilité est de 150€ en moyenne).
+        <br/><em>* Source : Enquête sur les mobilités du quotidien dans les régions françaises, Transdev et Ipsos, 2019</em>
+        <br/><br/>
+        <strong>Initiative inspirante :</strong> Le service de covoiturage Ecosyst'm à <strong>Ayen (19)</strong> — À découvrir dans l'onglet « Bonnes pratiques » sur ithea-conseil.fr
+      </div>
+    </div>
+  </div>
+  <div class="doss-pied">
+    <div>Profils thématiques · <strong>Vie locale · <span class="var">&lt;&lt;TER&gt;&gt;</span></strong></div>
+    <div>Page 8</div>
+  </div>
+</div>
+
+<!-- PAGE 9 — ABONNEMENT -->
 <div class="page p7">
   <h2 class="p7-titre">Votre abonnement <strong>aux Profils thématiques.</strong></h2>
   <p class="p7-soustitre">Au-delà du livrable, c'est un service que vous achetez : une lecture continue de <span class="var">&lt;&lt;TER&gt;&gt;</span> par les consultants Ithéa, et un interlocuteur dédié dans la durée.</p>
@@ -2187,7 +2424,7 @@ body{padding:30px 0;}
   </div>
 </div>
 
-<!-- PAGE 8 — BON DE COMMANDE -->
+<!-- PAGE 10 — BON DE COMMANDE -->
 <div class="page p8">
   <div class="p8-bandeau">
     <div class="p8-bandeau-titre">Bon de <strong>commande</strong></div>
@@ -2267,7 +2504,7 @@ body{padding:30px 0;}
   </div>
 </div>
 
-<!-- PAGE 9 — 4ème de couv -->
+<!-- PAGE 11 — 4ème de couv -->
 <div class="page p9">
   <div class="p9-tag">Profils thématiques · Édition <span class="var">&lt;&lt;Mois Année&gt;&gt;</span></div>
   <div class="p9-content">
